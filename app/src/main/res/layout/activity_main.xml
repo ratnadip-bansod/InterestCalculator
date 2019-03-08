@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+tools:layout_editor_absoluteY="81dp">
+
+
+<!-- for messege input first number-->
+<TextView
+    android:id="@+id/textView_first_no"
+    android:layout_width="150dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="50dp"
+    android:text="Principle"
+    android:textSize="20dp" />
+
+<!--take the input first number-->
+<EditText
+    android:id="@+id/editText_first_no"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="200dp"
+    android:layout_marginTop="40dp"
+    android:inputType="number" />
+
+
+<!--view messege -->
+<TextView
+    android:id="@+id/textView_second_no"
+    android:layout_width="150dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="100dp"
+    android:text="Rate"
+    android:textSize="20dp" />
+
+<!-- take input for second number -->
+
+<EditText
+    android:id="@+id/editText_second_no"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="200dp"
+    android:layout_marginTop="90dp"
+    android:inputType="number"
+    tools:ignore="MissingConstraints" />
+
+    <!--view messege -->
+    <TextView
+        android:id="@+id/textView_third_no"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:text="Time"
+        android:textSize="20dp" />
+
+    <!-- take input for second number -->
+
+    <EditText
+        android:id="@+id/editText_third_no"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="140dp"
+        android:inputType="number"
+        tools:ignore="MissingConstraints" />
+
+<!-- button for run add logic and view result -->
+
+<Button
+    android:id="@+id/simple_button"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="200dp"
+    android:text="Simple Interest" />
+
+    <Button
+        android:id="@+id/compound_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="200dp"
+        android:text="Compound Interest" />
+
+    <!-- Text view for result view-->
+    <TextView
+        android:id="@+id/textView_answer"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="300dp"
+        android:text="0"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
